@@ -1,0 +1,17 @@
+{
+  "name": "hackerlite",
+  "version": "0.5.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}

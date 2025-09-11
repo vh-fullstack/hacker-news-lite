@@ -1,0 +1,116 @@
+
+
+# Node.js
+###########################################
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+.pnpm-debug.log
+
+# Environment files
+###########################################
+.env
+.env.local
+.env.*.local
+
+# Logs
+###########################################
+*.log
+*.log.*
+
+# Operating system files
+###########################################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+*~
+
+# IDEs and Editors
+###########################################
+# VS Code
+.vscode/
+
+# JetBrains (IntelliJ, WebStorm, PhpStorm, etc.)
+.idea/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Visual Studio
+.vs/
+.vs2019/
+.vs2017/
+
+# Build and temporary files
+###########################################
+# Build output
+dist/
+build/
+coverage/
+tmp/
+temp/
+
+# Database files
+###########################################
+# MongoDB
+*.db
+*.sqlite
+
+# TypeScript files (if using TypeScript)
+###########################################
+*.tsbuildinfo
+
+# Testing frameworks and coverage reports
+###########################################
+# Jest
+jest/
+# Mocha
+mocha/
+# Coverage directory
+coverage/
+*.lcov
+*.coveralls
+
+# Frontend-related files
+###########################################
+# Next.js / Nuxt.js
+.next/
+.nuxt/
+
+# React
+build/
+*.bundle.js
+*.bundle.css
+
+# Angular
+.angular/
+
+# Vue.js
+node_modules/
+
+# npm global packages
+###########################################
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Miscellaneous
+###########################################
+*.bak
+*.swp
+*.swo
+requests/
+mongo.js
+migration-add-comments.js
+utils/

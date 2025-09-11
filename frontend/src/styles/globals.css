@@ -1,0 +1,38 @@
+body {
+  margin: 10px;
+  background-color: rgb(245, 248, 248);
+}
+
+center {
+  width: 85%;
+  background-color: rgb(229, 240, 234);
+  margin: 0 auto;
+}
+
+.nav {
+  background-color: rgb(131, 186, 169);
+}
+
+/* Link Styling */
+a {
+  color: #2d6958; 
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px; /* Adds a little space between text and underline */
+  transition: color 0.2s ease-in-out, text-decoration-color 0.2s ease-in-out;
+}
+
+a:visited {
+  color: #5a8a7b;
+}
+
+a:hover, a:focus {
+  /* Use the main accent color from your .nav for hover/focus */
+  color: rgb(131, 186, 169);
+  text-decoration-color: rgba(131, 186, 169, 0.5); /* Make underline slightly transparent */
+  outline: none; /* Optional: removes default focus outline if you have other indicators */
+}
+
+a:active {
+  color: #9bc6b8;
+}

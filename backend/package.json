@@ -1,0 +1,30 @@
+{
+  "name": "hackerlite-backend",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node index.js",
+    "dev": "cross-env NODE_ENV=development node --watch index.js",
+    "test": "cross-env NODE_ENV=test node --test --test-concurrency=1",
+    "deploy": "fly deploy",
+    "logs:prod": "fly logs",
+    "start:test": "cross-env NODE_ENV=test node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.0"
+  }
+}
