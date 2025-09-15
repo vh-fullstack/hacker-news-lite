@@ -1,4 +1,4 @@
-![Screenshot](./screenshot.png)
+![Screenshot](./background.png)
 # Hacker News-lite like
 
 This is a blog application built with React. It was created as a set of exercises to develop general full stack skills like state management, user authentication and authorization, and other core React concepts like custom hooks, component composition, and routing with React Router.
